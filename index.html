@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TGH (THE GAMERS HUB )</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body style="background-color: #4F4D4C;">
+<!--navigation-->
+	<div class="navbar navbar-custom navbar-fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">THE GAMERS HUB / Home</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+                    <li><a href="GamesReview.html">Games</a></li>
+                  
+                    
+                    <!--dropdown-->
+                          <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Xbox<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                             <li><a href="xbox360.html">Xbox 360</a></li>
+                             <li><a href="xboxone.html">Xbox one</a></li>
+                             <li><a href="xboxones.html">Xbox one s</a></li>
+                        </ul>
+                    </li>
+                <!--dropdown END-->
+                    
+					<!--dropdown-->
+                          <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playstation <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                             <li><a href="PlayS3.html">Playstation 3</a></li>
+                            <li><a href="PlayS4.html">Playstation 4</a></li>
+                             <li><a href="PlayS4PRO.html">Playstation 4 Pro</a></li>
+                        </ul>
+                    </li>
+                <!--dropdown END-->
+                </ul>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container"></div>
+                <img src="assets/picc1.jpg" width="700" height="800" style="" alt="">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="container" ></div>
+                <img src="assets/ps4gtav.jpg" width="900" height="800" alt="">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="container"></div>
+                <img src="assets/overwatch.jpg" width="900" height="800" alt="">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+<!--grid system-->
+	<div class="container">
+		<div class="row">
+		<!--Article 1-->
+			<div class="col-md-12">
+				<div class="thumbnail">
+				  	<img src="assets/HorizonZeroDawn.jpg" alt="Article One">
+				  	<div class="caption">
+						<h3>Horizen Zero Dawn!</h3>
+						<p>Check out our review of Horizon Zero Dawn over in our games section! We have tried our best to simplify our review to give you a quick summary.</p>
+						<p> 
+							<a href="GamesReview.html" class="btn btn-primary" role="button">Games Review</a> 
+						</p>
+				  	</div>
+				</div>
+			</div>
+        </div>
+    </div>
+<!--footer-->
+	<div class="navbar navbar-default navbar-static-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Shubham Chopra</p>
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+    
+    <!-- Start of SimpleHitCounter Code -->
+<div align="center"><a target="_blank"><img src="http://simplehitcounter.com/hit.php?uid=2246020&f=16777215&b=16711680" border="0" height="18" width="83" alt="web counter"></a></div>
+<!-- End of SimpleHitCounter Code -->
+    
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">Close</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
